@@ -1,0 +1,96 @@
+div {
+    border: 1px solid black;
+    font-family: calibri;
+    font-size: 12px;
+    margin: 1em; 
+    border-radius: 8px;
+}
+.nav {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+#icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 25px;
+    margin: 10px;
+}
+.menu {
+    background-color: lightgrey;
+}
+.login {
+    background-color: rgb(255, 252, 252);
+}
+.cart{
+    background-color: lightgrey;
+}
+.contenido{
+    flex-direction: column;
+    display: flex;
+    
+}
+.boton-reservar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    margin: 10px;
+    width: 80px;
+    height: 28px; 
+}
+.intermedio {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ventanita{
+    background-color: lightgrey;
+    margin: 10px;
+    padding: 10px;
+    width: 51px;
+}
+.bloques{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box { /*con aling y justify
+     se puede hubicar un peque;o titulo ?*/
+    background-color: lightgrey;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;    
+    margin: 10px;
+    padding: 18px;
+    width: 357px; 
+    height: 114px;   
+}
+/*---------------------------------
+-----------------------------------
+-----------------------------------*/
+#bloque-input { 
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgrey;
+    vertical-align: auto;
+}   
+/*---------------------------------
+-----------------------------------
+-----------------------------------*/
+
+.ingresar {
+    text-align: center;
+    margin: 10px;
+}
+
+.crear-cuenta {
+   padding: 1rem;
+   margin: 1rem;
+    
+}
