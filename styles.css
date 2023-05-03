@@ -2,7 +2,6 @@ div {
     border: 1px solid black;
     font-family: calibri;
     font-size: 12px;
-    margin: 1em; 
     border-radius: 8px;
 }
 .nav {
@@ -10,6 +9,7 @@ div {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
     }
 #icono{
     display: flex;
@@ -31,7 +31,16 @@ div {
 .contenido{
     flex-direction: column;
     display: flex;
-    
+    height: 307px;
+    width: 393px;
+    top: 52px;
+}
+.contenido h1{
+    padding: 1em;
+}
+.contenido p{
+    font-size: 16px;
+    padding: 1em;
 }
 .boton-reservar {
     display: flex;
@@ -46,19 +55,26 @@ div {
     border: 1px solid black;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: end;
+    height: 88px;
+    width: 393px;
 }
 .ventanita{
     background-color: lightgrey;
     margin: 10px;
     padding: 10px;
     width: 51px;
+    left: 0px;
+    top: 353px;
 }
 .bloques{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 393px;
+    height: 413px;
+    top: 439px;
 }
 .box { /*con aling y justify
      se puede hubicar un peque;o titulo ?*/
@@ -69,7 +85,9 @@ div {
     margin: 10px;
     padding: 18px;
     width: 357px; 
-    height: 114px;   
+    height: 114px;
+    left: 17px;   
+    top: 723px;
 }
 /*---------------------------------
 -----------------------------------
@@ -94,3 +112,4 @@ div {
    margin: 1rem;
     
 }
+-
