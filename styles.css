@@ -4,12 +4,15 @@ div {
     font-size: 12px;
     border-radius: 8px;
 }
+.inicio{
+    width: 393px;
+}
 .nav {
     border: 1px solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    width: 393px;
     }
 #icono{
     display: flex;
@@ -112,4 +115,3 @@ div {
    margin: 1rem;
     
 }
--
