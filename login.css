@@ -1,0 +1,173 @@
+div {
+    border: 1px solid black;
+    font-family: calibri;
+    font-size: 12px;
+    border-radius: 8px;
+}
+body{
+    display: flex;
+    width: 393px;
+    height: 852px;
+    position: absolute;
+    box-sizing: border-box;
+
+}
+.nav {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: em;
+    }
+#icono{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 50px;
+        height: 25px;
+        margin: 10px;
+    }
+h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.identificarse {
+    border: 1px solid black;
+    margin-top : 10px;
+}
+#bloque-input {
+    margin: 17px;
+    padding: 17px;
+    display: flex;
+    width: 393px;
+    height: 114px;
+    
+}
+.ingresar {
+    width: 109px;
+    height: 28px;
+}
+.crear-cuenta {
+    
+width: 300px;
+height: 24px;
+left: 34px;
+top: 707px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+}
+
+
+
+    /*
+#icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 25px;
+    margin: 10px;
+}
+.menu {
+    background-color: lightgrey;
+}
+.login {
+    background-color: rgb(255, 252, 252);
+}
+.cart{
+    background-color: lightgrey;
+}
+.contenido{
+    flex-direction: column;
+    display: flex;
+    height: 307px;
+    width: 393px;
+    top: 52px;
+}
+.contenido h1{
+    padding: 1em;
+}
+.contenido p{
+    font-size: 16px;
+    padding: 1em;
+}
+.boton-reservar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    margin: 10px;
+    width: 80px;
+    height: 28px; 
+}
+.intermedio {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    height: 88px;
+    width: 393px;
+}
+.ventanita{
+    background-color: lightgrey;
+    margin: 10px;
+    padding: 10px;
+    width: 51px;
+    left: 0px;
+    top: 353px;
+}
+.bloques{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 393px;
+    height: 413px;
+    top: 439px;
+}*/
+/*
+.box { /*con aling y justify
+     se puede hubicar un peque;o titulo ?*/
+  /*  background-color: lightgrey;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;    
+    margin: 10px;
+    padding: 18px;
+    width: 357px; 
+    height: 114px;
+    left: 17px;   
+    top: 723px;
+}
+/*---------------------------------
+-----------------------------------
+-----------------------------------*/
+/*
+#bloque-input { 
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgrey;
+    vertical-align: auto;
+}   
+/*---------------------------------
+-----------------------------------
+-----------------------------------*/
+/*
+.ingresar {
+    text-align: center;
+    margin: 10px;
+}
+
+.crear-cuenta {
+   padding: 1rem;
+   margin: 1rem;
+    
+}
+*/
