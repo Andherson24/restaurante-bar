@@ -10,15 +10,20 @@ body{
     height: 852px;
     position: absolute;
     box-sizing: border-box;
-
+    
 }
 .nav {
     border: 1px solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: em;
     }
+.login {
+    display: flex;
+    flex-direction: column;
+    height: 852px;
+    width: 393px;
+}
 #icono{
         display: flex;
         justify-content: space-around;
@@ -28,6 +33,8 @@ body{
         margin: 10px;
     }
 h1{
+    margin-top: 2em;
+    margin-bottom: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,32 +43,60 @@ h1{
 }
 .identificarse {
     border: 1px solid black;
-    margin-top : 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95%;
+    
 }
 #bloque-input {
     margin: 17px;
     padding: 17px;
     display: flex;
-    width: 393px;
+    width: 300px;
     height: 114px;
-    
+    font-size: 16px;
+}
+.identidad {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.password {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .ingresar {
     width: 109px;
     height: 28px;
+    margin-top: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+    font-size: 12px;
 }
 .crear-cuenta {
-    
 width: 300px;
 height: 24px;
 left: 34px;
 top: 707px;
+
+margin-top: 40px;
+margin-bottom: 40px;
+padding: 10px;
+
 
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 24px;
+
+display: flex;
+justify-content: center;
+
 }
 
 
@@ -133,22 +168,7 @@ line-height: 24px;
     top: 439px;
 }*/
 /*
-.box { /*con aling y justify
-     se puede hubicar un peque;o titulo ?*/
-  /*  background-color: lightgrey;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;    
-    margin: 10px;
-    padding: 18px;
-    width: 357px; 
-    height: 114px;
-    left: 17px;   
-    top: 723px;
-}
-/*---------------------------------
------------------------------------
------------------------------------*/
+.
 /*
 #bloque-input { 
     padding: 10px;
@@ -156,18 +176,3 @@ line-height: 24px;
     background-color: lightgrey;
     vertical-align: auto;
 }   
-/*---------------------------------
------------------------------------
------------------------------------*/
-/*
-.ingresar {
-    text-align: center;
-    margin: 10px;
-}
-
-.crear-cuenta {
-   padding: 1rem;
-   margin: 1rem;
-    
-}
-*/
