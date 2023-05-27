@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    width: 393px;
+    height: 852px;
+    position: absolute;
+    box-sizing: border-box;
+}
+div {
+    border: 1px solid black;
+    font-family: calibri;
+    font-size: 12px;
+    border-radius: 8px;
+}
+.nav {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+}
+#box {
+    margin: 15px;
+}
