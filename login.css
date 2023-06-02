@@ -1,178 +1,117 @@
+body {
+    display: flex;
+    position: absolute;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 div {
     border: 1px solid black;
     font-family: calibri;
     font-size: 12px;
-    border-radius: 8px;
+    font-family: 'Nunito Sans', sans-serif;
 }
-body{
-    display: flex;
-    width: 393px;
-    height: 852px;
-    position: absolute;
-    box-sizing: border-box;
-    
-}
+
+
 .nav {
     border: 1px solid black;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    }
+}
+
 .login {
     display: flex;
     flex-direction: column;
-    height: 852px;
-    width: 393px;
+    font-family: 'Nunito Sans', sans-serif;
+
 }
-#icono{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 50px;
-        height: 25px;
-        margin: 10px;
-    }
-h1{
+
+.icono {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    background: #D9D9D9;
+    border: none;
+}
+
+#logo {
+    background: white;
+}
+
+h1 {
     margin-top: 2em;
     margin-bottom: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-style: italic;
+    font-weight: 900;
 
 }
+
 .identificarse {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 95%;
-    
+
 }
+
 #bloque-input {
     margin: 17px;
-    padding: 17px;
+    padding: 20px;
     display: flex;
-    width: 300px;
-    height: 114px;
     font-size: 16px;
+    background: #D9D9D9;
+    border: none;
+    width: 80%;
+    height: 100%;
 }
+
 .identidad {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 .password {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 .ingresar {
-    width: 109px;
-    height: 28px;
     margin-top: 40px;
     padding: 10px;
     display: flex;
     justify-content: center;
-    font-family: 'Inter';
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 12px;
+    background: #D9D9D9;
+    border: none;
 }
+
 .crear-cuenta {
-width: 300px;
-height: 24px;
-left: 34px;
-top: 707px;
+    left: 34px;
+    top: 707px;
 
-margin-top: 40px;
-margin-bottom: 40px;
-padding: 10px;
-
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 24px;
-
-display: flex;
-justify-content: center;
-
-}
-
-
-
-    /*
-#icono{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 25px;
-    margin: 10px;
-}
-.menu {
-    background-color: lightgrey;
-}
-.login {
-    background-color: rgb(255, 252, 252);
-}
-.cart{
-    background-color: lightgrey;
-}
-.contenido{
-    flex-direction: column;
-    display: flex;
-    height: 307px;
-    width: 393px;
-    top: 52px;
-}
-.contenido h1{
-    padding: 1em;
-}
-.contenido p{
-    font-size: 16px;
-    padding: 1em;
-}
-.boton-reservar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: lightgrey;
-    margin: 10px;
-    width: 80px;
-    height: 28px; 
-}
-.intermedio {
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-around;
-    align-items: end;
-    height: 88px;
-    width: 393px;
-}
-.ventanita{
-    background-color: lightgrey;
-    margin: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     padding: 10px;
-    width: 51px;
-    left: 0px;
-    top: 353px;
-}
-.bloques{
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    border: none;
+
+
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 393px;
-    height: 413px;
-    top: 439px;
-}*/
-/*
-.
-/*
-#bloque-input { 
-    padding: 10px;
-    margin: 10px;
-    background-color: lightgrey;
-    vertical-align: auto;
-}   
+
+}
+
