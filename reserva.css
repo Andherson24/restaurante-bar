@@ -1,0 +1,133 @@
+body {
+    border: 1px solid black;
+    font-family: calibri;
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.header {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+
+}
+
+.header a {
+    text-align: center;
+    float: none;
+    display: block;
+    text-align: left;
+}
+
+.header a.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.derecha-menu {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
+.izquierda-menu {
+    border: none;
+}
+
+.icono {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    background: #D9D9D9;
+    border: none;
+}
+
+#user {
+    background: white;
+
+}
+
+
+h1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.realizar-pago {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    border: 1px solid black;
+    margin: 20px;
+
+
+}
+
+.sec1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pagos {
+    margin: 10px;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    /* or inline-flex */
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+#input {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    border: none;
+    height: auto;
+}
+
+
+
+#pagar {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 12px;
+    background: #D9D9D9;
+    border: none;
+    text-align: center;
+    margin: 20px;
+}
+
+.pagar {
+    display: flex;
+    justify-content: center;
+    border: none;
+
+}

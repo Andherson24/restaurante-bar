@@ -1,31 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>reservaciones</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reserva.css">
 </head>
+
 <body>
-    <div class="nav">
-        <div class="back">back</div>
-        <div class="logo">logo</div>
-        <div class="user">user</div>
-        <div class="cart">cart</div>
+    <div class="header">
+        <div class="izquierda-menu">
+            <div class="icono" id="menu">Menu</div>
+        </div>
+        <a href="#">Logo</a>
+        <div class="derecha-menu">
+            <div class="icono" id="user">User</div>
+            <div class="icono" id="cart">Cart</div>
+        </div>
     </div>
-    <h1>resercar una mesa</h1>
-    <div class="mesas-enumeradas">
-        <div class="mesa1">mesa1</div>
-        <div class="mesa2">mesa2</div>
-        <div class="mesa3">mesa3</div>
-        <div class="mesa4">mesa4</div>        
+    <h1>Reservar una mesa</h1>
+    <div class="realizar-pago">
+        <div class="sec1">
+            <div class="pagos" id="pago1">T1</div>
+            <div class="pagos" id="pago2">T2</div>
+        </div>
+        <div class="sec2">
+            <div class="pagos" id="pago3">T3</div>
+            <div class="pagos" id="pago4">T4</div>
+        </div>
     </div>
     <div class="datos-del-pedido">
-        <div class="fecha">fecha</div>
-        <div class="comida">comida</div>
-        <div class="cantidad">cantidad</div>
+        <div class="fecha" id="input">
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha">
+        </div>
+        <div class="comida" id="input">
+            <label for="comida">Contraseña</label>
+            <input type="text" id="comida" placeholder="Search for a dinner">
+        </div>
+        <div class="cantidad" id="input">
+            <label for="cantidad">Cantidad</label>
+            <input type="text" id="cantidad" placeholder="How many?">
+        </div>
+        <div class="pagar">
+            <input type="text" id="pagar" name="pagar" value="PAGAR">
+        </div>
     </div>
 
 </body>
+
 </html>
